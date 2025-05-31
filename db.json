@@ -1,0 +1,614 @@
+{
+  "servicesPage": [
+    {
+      "id": 1,
+      "description": "Cremation Ceremony Package",
+      "serviceType": "Cremation",
+      "voucherProvider": "Serenity Life Services",
+      "requireCell": true,
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 2,
+      "description": "Standard Burial Package",
+      "serviceType": "Burial",
+      "voucherProvider": "Peaceful Rest Providers",
+      "requireCell": false,
+      "isActive": false,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 3,
+      "description": "Family Transport Support",
+      "serviceType": "Logistics",
+      "voucherProvider": "Final Journey Logistics",
+      "requireCell": true,
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 4,
+      "description": "Memorial Event Planning",
+      "serviceType": "Planning",
+      "voucherProvider": "Legacy Memories Inc.",
+      "requireCell": false,
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 5,
+      "description": "Gravesite Maintenance Plan",
+      "serviceType": "Maintenance",
+      "voucherProvider": "Graceful Endings",
+      "requireCell": false,
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 6,
+      "description": "Post-Service Counseling",
+      "serviceType": "Support",
+      "voucherProvider": "Healing Hearts",
+      "requireCell": false,
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 7,
+      "description": "Religious Officiation Service",
+      "serviceType": "Ceremony",
+      "voucherProvider": "Faith & Peace Council",
+      "requireCell": true,
+      "isActive": false,
+      "view": "View",
+      "isDeleted": false
+    }
+  ],
+
+  "serviceProviders": [
+    {
+      "id": 1,
+      "name": "21st Century Life Funerals ",
+      "address": "11787 Mtipa Street, Orlando West Soweto info@21stcentury.co.za",
+      "manager": "Melvin Mlangeni 0810136705",
+      "townCity": "Soweto",
+      "province": "Gauteng",
+      "accredited": false,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Avbob - Germiston",
+      "address": "244 Meyer Street",
+      "manager": "Mr van Vuuren",
+      "townCity": "Germiston",
+      "province": "Gauteng",
+      "accredited": false,
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Heaven's Gate Funerals",
+      "address": "12 Unity Street, Pietermaritzburg",
+      "manager": "Thabo Dlamini 0834567890",
+      "townCity": "Pietermaritzburg",
+      "province": "KwaZulu-Natal",
+      "accredited": true,
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Peaceful Rest Funeral Services",
+      "address": "45 Hope Ave, Bloemfontein",
+      "manager": "Maria Botha 0823451234",
+      "townCity": "Bloemfontein",
+      "province": "Free State",
+      "accredited": false,
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Sunset Memorial Home",
+      "address": "89 Beach Road, Port Elizabeth",
+      "manager": "Nomsa Mkhize 0812345678",
+      "townCity": "Port Elizabeth",
+      "province": "Eastern Cape",
+      "accredited": true,
+      "isActive": false
+    },
+    {
+      "id": 6,
+      "name": "Eternal Peace Funerals",
+      "address": "678 Rose Street, Nelspruit",
+      "manager": "Sipho Nkosi 0798765432",
+      "townCity": "Nelspruit",
+      "province": "Mpumalanga",
+      "accredited": true,
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "Grace & Glory Funeral Home",
+      "address": "321 Mandela Drive, Polokwane",
+      "manager": "Julia Modise 0723459876",
+      "townCity": "Polokwane",
+      "province": "Limpopo",
+      "accredited": false,
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "name": "Heritage Funeral Services",
+      "address": "58 Victoria Road, Cape Town",
+      "manager": "Daniel Jacobs 0847891234",
+      "townCity": "Cape Town",
+      "province": "Western Cape",
+      "accredited": true,
+      "isActive": false
+    },
+    {
+      "id": 9,
+      "name": "Final Journey Funerals",
+      "address": "99 Main Street, Kimberley",
+      "manager": "Pieter Swart 0761234567",
+      "townCity": "Kimberley",
+      "province": "Northern Cape",
+      "accredited": true,
+      "isActive": true
+    },
+    {
+      "id": 10,
+      "name": "Rest Haven Memorials",
+      "address": "10 Palm Avenue, East London",
+      "manager": "Sibongile Mafu 0793456789",
+      "townCity": "East London",
+      "province": "Eastern Cape",
+      "accredited": false,
+      "isActive": true
+    },
+    {
+      "id": 11,
+      "name": "Angel Arms Funerals",
+      "address": "76 Crescent Rd, Pretoria North",
+      "manager": "Mandla Khoza 0824567890",
+      "townCity": "Pretoria",
+      "province": "Gauteng",
+      "accredited": true,
+      "isActive": true
+    },
+    {
+      "id": 12,
+      "name": "Legacy Funeral Home",
+      "address": "15 Market Street, Johannesburg",
+      "manager": "Cynthia Zulu 0836547890",
+      "townCity": "Johannesburg",
+      "province": "Gauteng",
+      "accredited": false,
+      "isActive": true
+    },
+    {
+      "id": 13,
+      "name": "Hearts & Hands Funerals",
+      "address": "88 Church Street, Klerksdorp",
+      "manager": "Zanele Sibeko 0789876543",
+      "townCity": "Klerksdorp",
+      "province": "North West",
+      "accredited": true,
+      "isActive": true
+    },
+    {
+      "id": 14,
+      "name": "Tranquil Rest Services",
+      "address": "22 Harmony Road, Welkom",
+      "manager": "Isaac Malema 0814561234",
+      "townCity": "Welkom",
+      "province": "Free State",
+      "accredited": false,
+      "isActive": false
+    },
+    {
+      "id": 15,
+      "name": "Blessed Journey Funerals",
+      "address": "33 Heaven Street, Mafikeng",
+      "manager": "Patricia Mokoena 0727894561",
+      "townCity": "Mafikeng",
+      "province": "North West",
+      "accredited": true,
+      "isActive": true
+    },
+    {
+      "id": 16,
+      "name": "Life Tribute Services",
+      "address": "5 Peace Crescent, Witbank",
+      "manager": "Johan Pretorius 0743216548",
+      "townCity": "Witbank",
+      "province": "Mpumalanga",
+      "accredited": true,
+      "isActive": true
+    },
+    {
+      "id": 17,
+      "name": "Glory Funeral Directors",
+      "address": "78 Angel Lane, Rustenburg",
+      "manager": "Thandi Mahlangu 0732134567",
+      "townCity": "Rustenburg",
+      "province": "North West",
+      "accredited": false,
+      "isActive": true
+    },
+    {
+      "id": 18,
+      "name": "Restful Endings",
+      "address": "34 Sunset Blvd, George",
+      "manager": "Leon Smit 0827893210",
+      "townCity": "George",
+      "province": "Western Cape",
+      "accredited": true,
+      "isActive": false
+    },
+    {
+      "id": 19,
+      "name": "Celestial Memorial Services",
+      "address": "56 Orion Road, Umtata",
+      "manager": "Andile Ndlovu 0796543217",
+      "townCity": "Umtata",
+      "province": "Eastern Cape",
+      "accredited": true,
+      "isActive": true
+    },
+    {
+      "id": 20,
+      "name": "Sunrise & Sunset Funerals",
+      "address": "65 Dawn Street, Piet Retief",
+      "manager": "Mary Ledwaba 0763217890",
+      "townCity": "Piet Retief",
+      "province": "Mpumalanga",
+      "accredited": false,
+      "isActive": true
+    },
+    {
+      "id": 21,
+      "name": "Sacred Rest Services",
+      "address": "102 Faith Street, Springs",
+      "manager": "Phillip Naidoo 0839871234",
+      "townCity": "Springs",
+      "province": "Gauteng",
+      "accredited": true,
+      "isActive": true
+    },
+    {
+      "id": 22,
+      "name": "Compassionate Farewells",
+      "address": "49 Memory Lane, Tzaneen",
+      "manager": "Samantha Chabalala 0823214567",
+      "townCity": "Tzaneen",
+      "province": "Limpopo",
+      "accredited": true,
+      "isActive": true
+    }
+  ],
+
+  "serviceProviderTypes": [
+    {
+      "id": 1,
+      "code": "A1",
+      "description": "Funeral Director",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 2,
+      "code": "B2",
+      "description": "Florist",
+      "createdBy": "Admin",
+      "updatedBy": "Editor"
+    },
+
+    {
+      "id": 3,
+      "code": "C3",
+      "description": "Caterer",
+      "createdBy": "Editor",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 4,
+      "code": "D4",
+      "description": "Grave Digging Service",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 5,
+      "code": "E5",
+      "description": "Headstone Supplier",
+      "createdBy": "Admin",
+      "updatedBy": "Reviewer"
+    },
+    {
+      "id": 6,
+      "code": "F6",
+      "description": "Venue Hire",
+      "createdBy": "Editor",
+      "updatedBy": "Editor"
+    },
+    {
+      "id": 7,
+      "code": "G7",
+      "description": "Live Musicians",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 8,
+      "code": "H8",
+      "description": "Audio‑Visual Service",
+      "createdBy": "Reviewer",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 9,
+      "code": "I9",
+      "description": "Limousine Service",
+      "createdBy": "Admin",
+      "updatedBy": "Editor"
+    },
+    {
+      "id": 10,
+      "code": "J10",
+      "description": "Obituary Writer",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+
+    {
+      "id": 11,
+      "code": "K11",
+      "description": "Memorial Video",
+      "createdBy": "Editor",
+      "updatedBy": "Reviewer"
+    },
+    {
+      "id": 12,
+      "code": "L12",
+      "description": "Bagpiper",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 13,
+      "code": "M13",
+      "description": "Organist",
+      "createdBy": "Admin",
+      "updatedBy": "Editor"
+    },
+    {
+      "id": 14,
+      "code": "N14",
+      "description": "Solo Vocalist",
+      "createdBy": "Reviewer",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 15,
+      "code": "O15",
+      "description": "Photo Slideshow",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 16,
+      "code": "P16",
+      "description": "Keepsake Printing",
+      "createdBy": "Admin",
+      "updatedBy": "Editor"
+    },
+    {
+      "id": 17,
+      "code": "Q17",
+      "description": "Urn Supplier",
+      "createdBy": "Admin",
+      "updatedBy": "Reviewer"
+    },
+    {
+      "id": 18,
+      "code": "R18",
+      "description": "Dove Release",
+      "createdBy": "Editor",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 19,
+      "code": "S19",
+      "description": "Fireworks Tribute",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 20,
+      "code": "T20",
+      "description": "Balloon Release",
+      "createdBy": "Admin",
+      "updatedBy": "Editor"
+    },
+
+    {
+      "id": 21,
+      "code": "U21",
+      "description": "Memory Table Setup",
+      "createdBy": "Reviewer",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 22,
+      "code": "V22",
+      "description": "Photo Montage Editing",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 23,
+      "code": "W23",
+      "description": "Eulogy Coach",
+      "createdBy": "Admin",
+      "updatedBy": "Editor"
+    },
+    {
+      "id": 24,
+      "code": "X24",
+      "description": "Celebrant",
+      "createdBy": "Admin",
+      "updatedBy": "Reviewer"
+    },
+    {
+      "id": 25,
+      "code": "Y25",
+      "description": "Memorial Jewelry",
+      "createdBy": "Editor",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 26,
+      "code": "Z26",
+      "description": "Tree‑Planting Tribute",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 27,
+      "code": "AA27",
+      "description": "Virtual Guestbook Host",
+      "createdBy": "Admin",
+      "updatedBy": "Editor"
+    },
+    {
+      "id": 28,
+      "code": "BB28",
+      "description": "Livestream Technician",
+      "createdBy": "Reviewer",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 29,
+      "code": "CC29",
+      "description": "ASL Interpreter",
+      "createdBy": "Admin",
+      "updatedBy": "Admin"
+    },
+    {
+      "id": 30,
+      "code": "DD30",
+      "description": "Pet Bereavement Care",
+      "createdBy": "Admin",
+      "updatedBy": "Editor"
+    }
+  ],
+  "areacodes": [
+    {
+      "id": 1,
+      "code": "001",
+      "description": "United States/Canada",
+      "type": "International",
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 2,
+      "code": "044",
+      "description": "United Kingdom",
+      "type": "International",
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 3,
+      "code": "091",
+      "description": "India",
+      "type": "International",
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 4,
+      "code": "081",
+      "description": "Japan",
+      "type": "International",
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 5,
+      "code": "061",
+      "description": "Australia",
+      "type": "International",
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 6,
+      "code": "011",
+      "description": "Landline - New York",
+      "type": "Landline",
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 7,
+      "code": "022",
+      "description": "Landline - Mumbai",
+      "type": "Landline",
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 8,
+      "code": "079",
+      "description": "Landline - Ahmedabad",
+      "type": "Landline",
+      "isActive": false,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 9,
+      "code": "0987654321",
+      "description": "Mobile - Vodafone India",
+      "type": "Mobile",
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 10,
+      "code": "0821",
+      "description": "Landline - Mysuru",
+      "type": "Landline",
+      "isActive": true,
+      "view": "View",
+      "isDeleted": false
+    },
+    {
+      "id": 11,
+      "code": "055",
+      "description": "Mobile - UAE Etisalat",
+      "type": "Mobile",
+      "isActive": false,
+      "view": "View",
+      "isDeleted": false
+    }
+  ]
+}

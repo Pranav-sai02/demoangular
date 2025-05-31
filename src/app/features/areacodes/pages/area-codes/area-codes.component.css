@@ -1,0 +1,12 @@
+.full-width-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.ag-grid-responsive {
+  width: 100% !important;
+  box-sizing: border-box;
+}

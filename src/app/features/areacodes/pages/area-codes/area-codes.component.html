@@ -1,0 +1,17 @@
+<div class="ag-theme-alpine" style="height: 500px; width: 100%">
+  <ag-grid-angular
+    class="ag-grid-responsive"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    [defaultColDef]="defaultColDef"
+    rowSelection="single"
+    [pagination]="true"
+    [paginationPageSize]="20"
+    [getContextMenuItems]="getContextMenuItems"
+    [domLayout]="'autoHeight'"
+    [animateRows]="true"
+    (cellValueChanged)="onCellValueChanged($event)"
+  >
+  </ag-grid-angular>
+</div>
+

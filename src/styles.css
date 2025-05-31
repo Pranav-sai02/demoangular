@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: Arial;
+}
+.ag-header-cell {
+  background-color: #05b9bc !important;
+  color: white !important;
+}
+
+.bold-header {
+  font-weight: bold;
+}
+
+/* styles.css (global styles) */
+.ag-theme-alpine .ag-header-cell-label {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.ag-header-cell-menu-button {
+  display: block !important;
+  opacity: 1 !important;
+}

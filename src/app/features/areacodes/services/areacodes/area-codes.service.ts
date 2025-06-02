@@ -19,11 +19,11 @@ export class AreaCodesService {
     return this.http.post<AreaCodes>(this.apiUrl, areaCode);
   }
 
-  updateAreaCode(areaCode: AreaCodes): Observable<void> {
-    return this.http.put<void>(`${this.apiUrl}/${areaCode.AreaCode}`, areaCode);
+ updateAreaCode(areaCode: AreaCodes): Observable<void> {
+  return this.http.put<void>(`${this.apiUrl}/${areaCode.AreaCodeId}`, areaCode);
   }
 
   softDeleteAreaCode(areaCode: AreaCodes): Observable<void> {
-    return this.http.put<void>(`${this.apiUrl}/${areaCode.AreaCode}`, areaCode);
+    return this.http.put<void>(`${this.apiUrl}/${areaCode.AreaCodeId}`, areaCode);
   }
 }

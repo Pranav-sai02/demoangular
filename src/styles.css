@@ -21,3 +21,14 @@
   display: block !important;
   opacity: 1 !important;
 }
+
+.ag-cell.hint-text {
+  color: #999 !important;
+  font-style: italic !important;
+}
+
+/* 👇 While editing, reset text color and font style */
+.ag-cell.ag-cell-edit-mode {
+  color: #000 !important;
+  font-style: normal !important;
+}

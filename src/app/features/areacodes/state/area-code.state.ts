@@ -44,9 +44,8 @@ export class AreaCodesState {
   addAreaCode(ctx: StateContext<AreaCodesStateModel>, action: AddAreaCode) {
     const state = ctx.getState();
     ctx.patchState({
-      areaCodes: [...state.areaCodes, action.payload],
+      areaCodes: [action.payload, ...state.areaCodes],
     });
-    // Optionally, call backend API to persist the new area code
     return this.areaCodesService.addAreaCode(action.payload);
   }
 
